@@ -7,17 +7,13 @@ pip install git+https://github.com/openai/whisper.git
 pip install language_tool_python
 
 
-# Move to github directory
-cd /content/summary
-
-
 # Creating empty folder to store audio files/transcripts
-mkdir audio_files/
+mkdir /content/summary/audio_files/
 
 
 # Variables for easy directory navigation
-home_dir="./"
-audio_dir="./audio_files/"
+home_dir="/content/summary/"
+audio_dir="/content/summary/audio_files/"
 
 
 # Download *.mp3 file(s) from Youtube video(s) -> audio_files folder
