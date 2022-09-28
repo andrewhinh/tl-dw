@@ -17,6 +17,7 @@ classifier = pipeline("summarization", model="facebook/bart-large-cnn")
 
 import math
 import glob
+import os
 
 files = glob.glob("./audio_files/" + '*txt')
 
@@ -58,7 +59,8 @@ file = 'summary.txt'
 with open(file, 'w') as f: f.writelines(new_list)
 
 
-# Opening summary.txt
+# Clearing the screen and printing summary.txt
+os.system('clear')
 with open(file, "r") as f:
     FileContent = f.read()
     print(FileContent)
