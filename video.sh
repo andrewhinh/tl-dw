@@ -12,7 +12,7 @@ mkdir audio_files/
 
 
 # Variables for easy directory navigation
-home_dir="."
+home_dir="./"
 audio_dir="./audio_files/"
 
 
@@ -22,7 +22,7 @@ node download.js $@
 
 # Transcribe audio files and move them to -> audio_files folder
 cd $audio_dir
-for f in $(find ./audio_files/ -name "*.mp3")
+for f in $(find . -name "*.mp3")
 do
 whisper "$f" --model base.en --language English
 done
