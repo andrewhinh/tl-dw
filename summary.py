@@ -53,5 +53,12 @@ for transcript in transcript_list:
 new_list = [tool.correct(transcript) for transcript in new_list]
 
 
-# Saving to fixed_transcript.txt
-with open('summary.txt', 'w') as f: f.writelines(new_list)
+# Saving to summary.txt
+file = 'summary.txt'
+with open(file, 'w') as f: f.writelines(new_list)
+
+
+# Opening summary.txt
+with open(file, "r") as f:
+    FileContent = f.read()
+    print(FileContent)
