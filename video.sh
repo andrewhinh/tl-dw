@@ -35,3 +35,7 @@ cd $home_dir
 
 # Summarize transcripts 
 python3 summary.py
+
+
+# Open summary.txt for easy copy access
+nano summary.txt
