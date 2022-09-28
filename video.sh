@@ -7,6 +7,10 @@ pip install git+https://github.com/openai/whisper.git
 pip install language_tool_python
 
 
+# Move to github directory
+cd /content/summary
+
+
 # Creating empty folder to store audio files/transcripts
 mkdir audio_files/
 
