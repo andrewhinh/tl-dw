@@ -5,6 +5,7 @@
 apt update && apt install ffmpeg
 npm install youtube-mp3-downloader --save
 pip install git+https://github.com/openai/whisper.git 
+pip install language_tool_python
 
 
 # Creating empty folder to store audio files/transcripts
