@@ -2,7 +2,6 @@
 
 
 # Install dependencies
-apt update && apt install ffmpeg
 npm install youtube-mp3-downloader --save
 pip install git+https://github.com/openai/whisper.git 
 pip install language_tool_python
@@ -18,7 +17,7 @@ audio_dir="./audio_files/"
 
 
 # Download *.mp3 file(s) from Youtube video(s) -> audio_files folder
-/usr/local/bin/node download.js $@
+node download.js $@
 
 
 # Transcribe audio files and move them to -> audio_files folder
