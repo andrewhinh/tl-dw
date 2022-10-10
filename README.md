@@ -1,5 +1,5 @@
 # summary
-Automated YouTube Video Transcription and Summarization!
+Automated YouTube Video Transcription and Summarization
 
 ## How to use
 https://user-images.githubusercontent.com/40700820/192876028-cda7c1f6-ef9f-4a61-8774-485526c76672.mp4
